@@ -8,5 +8,5 @@ EXPOSE 443
 CMD curl -s https://core.telegram.org/getProxySecret -o proxy-secret && \
     curl -s https://core.telegram.org/getProxyConfig -o proxy-multi.conf && \
     ./objs/bin/mtproto-proxy -u nobody -p 8888 -H 443 \
-    -S ee00112233445566778899aabbccddeeff \
+    -S dd000102030405060708090a0b0c0d0e0f \
     --aes-pwd proxy-secret proxy-multi.conf -M 1
