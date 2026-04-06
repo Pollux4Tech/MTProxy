@@ -1,10 +1,7 @@
-app = 'mtproxy-ymhdfw'
+app = 'mtproxy-djcuna'
 primary_region = 'fra'
 
 [build]
-
-[env]
-  SECRET = 'ee00112233445566778899aabbccddeeff'
 
 [[services]]
   internal_port = 443
