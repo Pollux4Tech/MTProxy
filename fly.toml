@@ -1,0 +1,14 @@
+app = 'mtproxy-ymhdfw'
+primary_region = 'fra'
+
+[build]
+
+[env]
+  SECRET = 'ee00112233445566778899aabbccddeeff'
+
+[[services]]
+  internal_port = 443
+  protocol = 'tcp'
+
+  [[services.ports]]
+    port = 443
